@@ -7,21 +7,23 @@
     text-decoration: none;
 }
 :root {
-    --font-color: #a3a3a3;
-    --color-hover: #ffff; 
-    --background-nav: #001428;
+    --font-color: #fff;
+    --color-hover: #001248; 
+    --background-nav: #db94e9;
     --background-body: #fff;
 }
 
 body{
- background-color: var(--background-body) ;
+background: rgb(255,240,70);
+background: linear-gradient(251deg, rgba(255,240,70,1) 0%, rgba(219,148,233,1) 100%);
+
 }
 
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: var(--background-nav);
+   
     padding-top: 15px;
     padding-bottom: 15px;
 }
@@ -48,6 +50,7 @@ main{
     justify-content: center;
     align-items: center;
     width: 100%;
+    
 }
 
 #hero {
@@ -72,7 +75,7 @@ main{
 
 .hero_info h1 {
  font-size: 2.5rem;
- padding-bottom: 10px;
+ color:#fff;
 }
 
 .hero_info p {
