@@ -44,7 +44,7 @@ a:hover{
 main{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 10px;
     justify-content: center;
     align-items: center;
     width: 100%;
@@ -76,4 +76,16 @@ main{
     font-size: 20px;
     font-family: 'Poppins', sans-serif;
 }
+
+#about {
+    width: 60%;
+    padding-bottom: 70px ;
+    padding-top: 30px;
+}
+.about_info p{
+    font-family: "poppins";
+    text-align: center;    
+
+}
+
 
